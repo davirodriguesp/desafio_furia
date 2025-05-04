@@ -22,8 +22,8 @@ Confira uma demonstração rápida da aplicação:
 
 🗓️ Próximos Jogos: Veja as datas, horários e adversários dos próximos confrontos.
 
-🛒 Loja Oficial: Acesse rapidamente a loja e confira os produtos oficiais do time
-.
+🛒 Loja Oficial: Acesse rapidamente a loja e confira os produtos oficiais do time.
+
 ❓ Quiz Interativo: Teste seus conhecimentos sobre a FURIA e participe de outras interações divertidas.
 
 🎥 Canal no YouTube: Canal Oficial da FURIA CS no Youtube.
