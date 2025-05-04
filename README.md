@@ -1,9 +1,11 @@
 🦁 FURIA Chatbot Landing
+
 Uma landing page interativa com chatbot para fãs do time de CS da FURIA.
 Feito em React.
 
 📸 Demonstração
 https://drive.google.com/file/d/1eW4Fg5xNYNY10txW8VUFw0pHUeghGu8W/view?usp=sharing
+
 
 🚀 Funcionalidades
 Status ao Vivo: Veja o placar e informações dos jogos em tempo real.
