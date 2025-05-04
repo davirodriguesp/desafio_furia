@@ -1,10 +1,12 @@
-# 🦁 FURIA Chatbot Landing
+# 🦁 FURIA Chatbot Landing Page
 
 [![React Badge](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
 [![Styled Components Badge](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com/)
 [![GitHub Pages Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-222222?style=for-the-badge&logo=github)](https://davirodriguesp.github.io/desafio_furia/)
 
-Uma landing page interativa com um chatbot dedicado aos fãs do time de CS da FURIA. Desenvolvido com React.
+Uma landing page interativa com um chatbot dedicado aos fãs do time de CS da FURIA.
+
+Desenvolvido com React.
 
 ---
 
