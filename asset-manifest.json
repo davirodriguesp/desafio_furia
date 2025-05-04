@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/desafio_furia/static/css/main.e6c13ad2.css",
+    "main.js": "/desafio_furia/static/js/main.6f4ad504.js",
+    "static/media/furia_banner.gif": "/desafio_furia/static/media/furia_banner.e09c8da4eacd1b79b429.gif",
+    "static/media/furia@logotyp.us.png": "/desafio_furia/static/media/furia@logotyp.us.2ad5852670927996c3b6.png",
+    "static/media/whatsapp.png": "/desafio_furia/static/media/whatsapp.d026940870fb334920b7.png",
+    "static/media/comunidade.png": "/desafio_furia/static/media/comunidade.210d2eff6ff9fc65057d.png",
+    "static/media/exclusivo.png": "/desafio_furia/static/media/exclusivo.d239aaa07ab792967fc8.png",
+    "static/media/torneio.png": "/desafio_furia/static/media/torneio.84b71f8ee690d073bae6.png",
+    "static/media/bater-papo.png": "/desafio_furia/static/media/bater-papo.7e158e318cc1004ec633.png",
+    "static/media/loja.png": "/desafio_furia/static/media/loja.19ee9352e8cbde777e6c.png",
+    "index.html": "/desafio_furia/index.html",
+    "main.e6c13ad2.css.map": "/desafio_furia/static/css/main.e6c13ad2.css.map",
+    "main.6f4ad504.js.map": "/desafio_furia/static/js/main.6f4ad504.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6f4ad504.js"
+  ]
+}
