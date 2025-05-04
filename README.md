@@ -1,70 +1,126 @@
-🦁 FURIA Chatbot Landing
+# 🦁 FURIA Chatbot Landing
 
-Uma landing page interativa com chatbot para fãs do time de CS da FURIA.
-Feito em React.
+[![React Badge](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![Styled Components Badge](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com/)
+[![GitHub Pages Deploy](https://img.shields.io/badge/Deploy-GitHub%20Pages-222222?style=for-the-badge&logo=github)](https://davirodriguesp.github.io/desafio_furia/)
 
-📸 Demonstração
-https://drive.google.com/file/d/1eW4Fg5xNYNY10txW8VUFw0pHUeghGu8W/view?usp=sharing
+Uma landing page interativa com um chatbot dedicado aos fãs do time de CS da FURIA. Desenvolvido com React.
 
+---
 
-🚀 Funcionalidades
-Status ao Vivo: Veja o placar e informações dos jogos em tempo real.
+## 📸 Demonstração
 
-Próximos Jogos: Confira datas e adversários dos próximos confrontos da FURIA.
+Confira uma demonstração rápida da aplicação:
 
-Loja Oficial: Acesse rapidamente os produtos oficiais do time.
+[▶️ Assistir Vídeo de Demonstração](https://drive.google.com/file/d/1eW4Fg5xNYNY10txW8VUFw0pHUeghGu8W/view?usp=sharing)
+<br>
+<br/>
 
-Quiz e outras interações
+## 🚀 Funcionalidades Principais
 
-🛠️ Tecnologias utilizadas
-React (Create React App)
+📊 Status ao Vivo: Acompanhe o placar e informações cruciais dos jogos da FURIA em tempo real.
 
-styled-components
+🗓️ Próximos Jogos: Veja as datas, horários e adversários dos próximos confrontos.
 
-react-chatbot-kit (ou seu chatbot customizado)
+🛒 Loja Oficial: Acesse rapidamente a loja e confira os produtos oficiais do time
+.
+❓ Quiz Interativo: Teste seus conhecimentos sobre a FURIA e participe de outras interações divertidas.
 
-Axios para requisições HTTP
+🎥 Canal no YouTube: Canal Oficial da FURIA CS no Youtube.
+<br>
+<br/>
 
-⚠️ Observações sobre APIs
-Atenção:
-Algumas funcionalidades do chatbot que dependem de APIs externas (como status ao vivo e próximos jogos) podem não funcionar no deploy do GitHub Pages devido a restrições de CORS das APIs utilizadas.
-Localmente, essas funções funcionam normalmente.
+## 🛠️ Tecnologias Utilizadas
+* **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+* **Create React App:** Configuração inicial do ambiente React.
+* **styled-components:** CSS-in-JS para estilização dos componentes.
+* **react-chatbot-kit:** Kit para criação de chatbots em React.
+* **Axios:** Cliente HTTP para realizar requisições às APIs.
+<br/>
 
-💻 Como rodar o projeto localmente
-Pré-requisitos
-Node.js (versão 14 ou superior)
+## ⚠️ Observações Importantes sobre APIs
+Atenção: Algumas funcionalidades do chatbot dependem de APIs externas (como status ao vivo e próximos jogos).
 
-npm (geralmente já vem com o Node)
+* **Localmente:** Tudo funciona como esperado. ✅
+* **Deploy (GitHub Pages):** Essas funcionalidades podem não funcionar devido a restrições de CORS (Cross-Origin Resource Sharing) impostas pelas APIs. 🚧
+<br/>
 
-Instalação
-Clone o repositório:
-git clone https://github.com/davirodriguesp/desafio_furia.git
+## 💻 Como Rodar o Projeto Localmente
+Siga estes passos para configurar e executar o projeto em sua máquina.
+
+### Pré-requisitos:
+
+* Node.js (versão 14 ou superior)
+* npm (geralmente instalado junto com o Node.js)
+  
+### Instalação:
+
+1. Clone o repositório:
+git clone [https://github.com/davirodriguesp/desafio_furia.git](https://github.com/davirodriguesp/desafio_furia.git)
+
+2. Navegue até o diretório:
 cd desafio_furia
 
-Instale as dependências:
+3. Instale as dependências:
 npm install
 
-Rode o projeto:
+### Execução:
+
+1. Inicie o servidor de desenvolvimento:
 npm start
 
-Acesse http://localhost:3000 no navegador.
+2. Acesse no navegador: Abra https://www.google.com/search?q=http://localhost:3000
+<br/>
 
-🌐 Deploy no GitHub Pages
-O projeto pode ser acessado em:
-https://davirodriguesp.github.io/desafio_furia/
+## 🌐 Deploy no GitHub Pages
+O projeto está disponível online em:
 
-Para publicar atualizações:
-npm run deploy
+👉 https://davirodriguesp.github.io/desafio_furia/
 
-📁 Estrutura do projeto
+Para publicar atualizações no GitHub Pages, execute o comando:
+**npm run deploy**
+<br/>
+## 📁 Estrutura do Projeto
+desafio_furia/
 
-src/ - Código-fonte React (componentes, estilos, chatbot, etc)
-public/ - Arquivos estáticos e index.html
-package.json - Dependências e scripts do projeto
+├── public/             ## Arquivos estáticos, index.html
 
-📋 Como contribuir
-Pull requests são bem-vindos!
-Para sugestões ou bugs, abra uma issue.
+├── src/                ## Código-fonte da aplicação React
 
-🙋‍♂️ Autor
-Davi Rodrigues
+│   ├── api/            ## Lógica de requisições a API.
+
+│   ├── components/     ## Componentes Reat (options)
+
+│   ├── chatbot/        ## Configuração e lógica do chatbot
+
+│   ├── App.js          ##  Componente principal da aplicação
+
+│   └── index.js        ## Ponto de entrada da aplicação
+
+│   ├─ SimpleChatbot.js ## Componente do chatbot
+
+├── .gitignore          ## Arquivos ignorados pelo Git
+
+├── package.json        ## Dependências e scripts do projeto
+
+├── package-lock.json   ## Lockfile das dependências
+
+└── README.md           ## Este arquivo :)
+
+## 📋 Como Contribuir
+Contribuições são sempre bem-vindas!
+
+Faça um Fork do projeto. 
+
+Crie uma nova Branch (git checkout -b feature/sua-feature).
+
+Faça Commit das suas alterações (git commit -m 'Adiciona nova feature').
+
+Faça Push para a Branch (git push origin feature/sua-feature).
+
+Abra um Pull Request.
+
+Para sugestões ou reportar bugs, por favor, abra uma Issue.   
+
+## 🙋‍♂️ Autor
+Feito por Davi Rodrigues
