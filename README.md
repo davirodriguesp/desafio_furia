@@ -34,7 +34,6 @@ Confira uma demonstração rápida da aplicação:
 
 ## 🛠️ Tecnologias Utilizadas
 * **React:** Biblioteca JavaScript para construção de interfaces de usuário.
-* **Create React App:** Configuração inicial do ambiente React.
 * **styled-components:** CSS-in-JS para estilização dos componentes.
 * **react-chatbot-kit:** Kit para criação de chatbots em React.
 * **Axios:** Cliente HTTP para realizar requisições às APIs.
